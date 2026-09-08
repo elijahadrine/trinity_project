@@ -50,9 +50,15 @@ nav a {
     font-size: 115%;
     color: #31180f;
 }
+.pair {
+    text-align: center;
+    margin-right: 320px;
+}
 .healingthenation {
     font-size: 200%;
     color: #ff7f50;
+    text-align: center;
+    margin-right: 320px;
 }
 .healingthenation {
     font-weight: bold;
