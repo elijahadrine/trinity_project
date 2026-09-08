@@ -4,26 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home-Trinity Hospital</title>
+    <link rel="stylesheet" href="mypresets.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <title>Home-Trinity Hospital</title>
 </head>
 
-<body>
-    <header class="heading-text container">
-        <div>
-            <img src="#" alt="Trinity Hospital Logo">
-            <h1><span>Trinity</span>Hospital</h1>
+<body class="body">
+    <header class="heading-text">
+
+        <div class="trinity">
+
+            <h1><span>TRINITY</span>HOSPITAL</h1>
         </div>
         <nav>
             <a href="trinityhospital.html">Home</a>
             <a href="#">About us</a>
             <a href="#">Location</a>
-            <a href="#">Get Started</a>
+            <a href="getstarted.html">Get Started</a>
         </nav>
-        
     </header>
     <main class="main-content container">
-        <div>
+        <div class="pair">
+            <div class="content-img">
+                <img src="trinityicon.png" class=trinityicon alt="Trinity Hospital Logo">
+            </div>
+            <div class="mainname">
+                <p><span>Trinity</span><br>Hospital<br>Uganda</p>
+            </div>
+        </div>
+        <div class="healingthenation">
+            <p>HEALING THE NATION</p>
+        </div>
+        <div class="maintext">
             <p>
                 Trinity hospital, one of the leading hospitals in Uganda has served the country
                 for over 20 years promoting health for the sustainable development of
@@ -31,34 +44,77 @@
                 over 200,000 patients.
             </p>
         </div>
+        <div class="learnmore">
+            <a href="#">Learn more</a>
+        </div>
     </main>
-    <section class="container">
-        <h2>Our Doctors</h2>
-        <div><!--Images of doctors--></div>
-    </section>
-    <section>
-        <div class="container">
-            <div>
-                <p>QUALITY SERVICE<br>FOR OVER<br><span>20 YEARS</span></p>
+    <section class="directormessage autoshow container">
+        <div class="mainmes">
+            <div class="messagetitle">
+                <p>A MESSAGE FROM THE DIRECTOR</p>
             </div>
-            <div>
-                <img src="#" alt="#">
+            <div class="directorname">
+                <p>MRS. RUTH JUSTICE</p>
+            </div>
+            <div class="bolddirectortext">
+                <p>20 Years of Care, Compassion, and Commitment</p>
+            </div>
+            <div class="realtext">
+                <p>This year, Trinity Hospital proudly celebrates 20 years of serving our community with excellence and
+                    heart. Since opening our doors, we have cared for thousands of patients, advanced medical
+                    innovation,
+                    and built a team united by compassion and dedication. Every milestone has been made possible by our
+                    incredible staff, loyal partners, and the trust of those we serve.<br>As we honor our past, we look
+                    forward to a future of continued healing, hope, and progress. Thank you for being part of our
+                    journey —
+                    here's to the next chapter in delivering exceptional care.</p>
+            </div>
+            <div class="learnmore">
+                <a href="#">Read More</a>
             </div>
         </div>
-        <div class="container">
-            <div>
-                <img src="happy patients.jpg" alt="#">
+        <div class="imgmes">
+            <img src="director.png" alt="Mrs. Ruth Justice, Director">
+        </div>
+    </section>
+    <!--<section class="img-section container">
+        <h2>Our Doctors</h2>
+        <div> Sliding images of doctors</div>
+    </section>-->
+    <section>
+        <div class="section-content autoshow container">
+            <div class="section-text container">
+                <p>QUALITY SERVICE<br>FOR OVER<br><span>20 YEARS</span></p>
             </div>
-            <div>
+            <div class="section-img1 container">
+            </div>
+        </div>
+        <div class="section-content autoshow container">
+            <div class="section-img2 container">
+            </div>
+            <div class="section-text container">
                 <p>OVER<br><span>200,000 PATIENTS</span><br>HEALED</p>
             </div>
         </div>
-        <div class="container">
+        <div class="join-us autoshow container">
             JOIN US TODAY
         </div>
     </section>
-    <footer class="container">
-        <p>© 2026 TrinityHospital. All rights reserved.</p>
+    <footer class="footer">
+        <div class="legalinformation col-6">
+            <p class="ftitle">LEGAL</p>
+        <p class="text-secondary">© 2026 TrinityHospital. All rights reserved.</p>
+        <p class="text-secondary">Trinity Hospital is liscenced under the Uganda Act of Civil Health,1977. Trinity Hospital is a registered legal trademark.</p>
+        </div>
+        <div class="contacts col-3">
+            <p class="ftitle">CONTACTS</p>
+            <p class="text-secondary">+256 708 339235<br>+256 298 279379<br>+256 782 238940<br>trinityhospital.ug@trinity.mail</p>
+        </div>
+        <div class="socials col-3">
+            <p class="ftitle">SOCIALS</p>
+            <p></p>
+        </div>
     </footer>
 </body>
+
 </html>

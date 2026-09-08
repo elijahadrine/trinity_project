@@ -1,4 +1,146 @@
-.heading-text container {
+
+
+.trinity {
+    letter-spacing: 1px;
+}
+.trinity span {
+    color: #ff7f50 ;
+}
+.trinity h1 {
+    color: #31180f;
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 4px;
+    color: #ff7f50;
+    font-size: 130%;
+}
+.trinityicon {
+    width: 15%
+}
+
+
+
+.main-content {
+    margin-top: 40px;
+    background-image: url(parallax-image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
+    border-radius: 10px;
+    padding-left: 100px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.mainname {
     font-weight: bold;
+    font-size: 270%;
+    letter-spacing: 1px;
+    color: #31180f;
+}
+.mainname span {
+    color: #ff7f50;
+}
+.maintext {
+    margin-right: 320px;
+    font-size: 115%;
+    color: #31180f;
+}
+.healingthenation {
+    font-size: 200%;
+    color: #ff7f50;
+}
+.healingthenation {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.section-content {
+    display: flex;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 40px 40px 40px 40px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+  
+}
+.section-img1 {
+    width: 130%;
+    background-image: url(happydoctors.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-radius: 10px;
     
 }
+.section-img2 {
+    width: 130%;
+    background-image: url(happypatients.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-radius: 10px;
+    
+}
+.section-text {
+    display: flex;
+    font-size: 240%;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    transition: 0.3s;
+    color: #31180f;
+   
+}
+.section-text:hover {
+    letter-spacing: 2px;
+    font-size: 260%;
+    color: #f7f8fc;
+}
+.join-us {
+    margin-top: 50px;
+    font-size: 300%;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.join-us:hover {
+    font-size: 320%;
+    letter-spacing: 2px;
+    color:#f7f8fc
+}
+.directormessage {
+    display: flex;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.mainmes {
+    padding: 50px 50px 50px 50px;
+}
+.imgmes {
+    margin-top: auto;
+}
+
+.messagetitle {
+    font-size: 200%;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.directorname {
+    font-size: 150%;
+    font-weight: bold;
+}
+.bolddirectortext {
+    text-align: center;
+    font-weight: 400;
+    font-size: 150%;
+}
+
