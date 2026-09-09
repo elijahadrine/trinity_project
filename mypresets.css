@@ -48,11 +48,82 @@
     padding: 10px 20px 5px 100px;
     background-color: #f7f8fc;
     justify-content: space-between;
-    position: sticky;
-    top: 0px;
-    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
     z-index: 100;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
 }
 .body {
-    background-color: #ff7f50;
+    background-color: #f7f8fc
 }
+.loginbutton {
+    text-decoration: none;
+    color: #ff7f50;
+    font-weight: bold;
+    font-size: 110%;
+    border: 2px solid #ff7f50;
+    padding: 3px 6px 3px 6px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.loginbutton:hover {
+    border: none;
+    background-color: #ff7f50;
+    color: #f7f8fc;
+}
+.alreadyhave {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 120%;
+    color: #31180f;
+}
+.signupbox {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 5vh;
+    width: 65vh;
+    padding: 50px 40px 50px 40px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.headingsignup {
+    text-align: center;
+    color: #ff7f50;
+    font-weight: bold;
+
+}
+.trinity {
+    letter-spacing: 1px;
+}
+.trinity span {
+    color: #ff7f50 ;
+}
+.trinity h1 {
+    color: #31180f
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    color: #ff7f50;
+    font-size: 130%;
+    border-right: 2px solid #ff7f50;
+}
+.trinityicon {
+    width: 15%
+}
+.submit {
+    font-size: 120%;
+    background-color: #ff7f50;
+    border: none;
+    color: #f7f8fc;
+    padding: 3px 5px 3px 5px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.submit:hover {
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px);
+}
+

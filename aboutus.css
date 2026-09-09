@@ -1,0 +1,22 @@
+.everything {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 92vh;
+}
+.content p {
+    margin-top: 50px;
+    margin-right: 480px;
+    color: #31180f;
+    font-size: 120%;
+}
+.footer {
+    margin-top: 0px;
+}
+.aboutusheading {
+    color: #ff7f50;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 480px;
+    padding-top:30px;
+}
