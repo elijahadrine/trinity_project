@@ -107,7 +107,11 @@ nav a {
     padding: 5px 5px 5px 5px;
     color: #ff7f50;
     font-size: 130%;
-    border-right: 2px solid #ff7f50;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #31180f;
+    transform: translateY(-20px);
 }
 .trinityicon {
     width: 15%
@@ -125,5 +129,8 @@ nav a {
 .submit:hover {
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
     transform: translateY(-10px);
+}
+.selected {
+    text-decoration: underline #ff7f50;
 }
 
